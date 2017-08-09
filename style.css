@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #333;
+}
+
+.container{
+    width: 90%;
+    margin:0 auto;
+    
+  
+}
+
+.mapa{
+    width:900px;
+    position: relative;
+    
+}
+.mapa img{
+    width: 100%;
+}
+
+.punto{
+    width: 30px;
+    height: 30px;   
+    background-color: red;
+    border-radius:50%;
+    position: absolute;
+}
+.descripcion{
+    width: 200px;
+    height: auto;
+    background-color: aquamarine;
+    position: absolute;
+    left: 30px;
+    visibility: hidden;
+  
+}
+
+.punto:hover .descripcion{
+    visibility: visible;
+}
+#puertadelvino{
+    left:300px;
+    top: 200px;
+    
+}
