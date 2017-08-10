@@ -10,7 +10,6 @@ body{
     width: 90%;
     margin:0 auto;
     
-  
 }
 
 .mapa{
@@ -23,16 +22,12 @@ body{
 }
 
 .punto{
-    width: 30px;
-    height: 30px;   
-    background-color: red;
-    border-radius:50%;
     position: absolute;
-}
+   }
 .descripcion{
-    width: 200px;
+    width: 100px;
     height: auto;
-    background-color: aquamarine;
+    background-color: palegoldenrod;
     position: absolute;
     left: 30px;
     visibility: hidden;
@@ -43,7 +38,26 @@ body{
     visibility: visible;
 }
 #puertadelvino{
-    left:300px;
-    top: 200px;
+    left:430px;
+    top: 830px;
     
+}
+#lagalana{
+    left: 460px;
+    top: 636px;
+}
+#elganan{
+    left:115px;
+    top: 913px;
+    
+}
+#obelisco{
+    left: 420px;
+    top: 450px;
+}
+    
+p{
+    text-decoration: underline;
+    text-align: center;
+    font-size: bold;
 }
